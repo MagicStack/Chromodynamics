@@ -435,6 +435,17 @@
                 <string>#E6DB74</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>self and cls</string>
+            <key>scope</key>
+            <string>variable.language.special, variable.parameter.function.language.special</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b2a988</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>72d2f21e-76c9-11e5-8275-000c6c071bb8</string>
