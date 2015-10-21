@@ -302,7 +302,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#65cde1</string>
+                <string>#66D9EF</string>
             </dict>
         </dict>
         <dict>
@@ -315,7 +315,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#65cde1</string>
+                <string>#66D9EF</string>
             </dict>
         </dict>
         <dict>
@@ -326,7 +326,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#65cde1</string>
+                <string>#66D9EF</string>
             </dict>
         </dict>
         <dict>
