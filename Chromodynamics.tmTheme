@@ -446,6 +446,41 @@
                 <string>#b2a988</string>
             </dict>
         </dict>
+
+        <!-- PEP 484: -->
+        <dict>
+            <key>name</key>
+            <string>comment/typehint: base color</string>
+            <key>scope</key>
+            <string>comment.typehint</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#696B67</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>comment/typehint: ignore</string>
+            <key>scope</key>
+            <string>comment.typehint.ignore</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7E6461</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>comment/typehint: type name</string>
+            <key>scope</key>
+            <string>comment.typehint.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#44727B</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>72d2f21e-76c9-11e5-8275-000c6c071bb8</string>
