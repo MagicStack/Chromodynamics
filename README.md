@@ -1,7 +1,6 @@
 # Chromodynamics
 
-This is a Sublime Text color scheme.  We'll properly package
-it for Atom and Sublime Text soon.
+This is a color theme for Sublime Text and Atom.
 
 ![](https://magicstack.github.io/MagicPython/example.png)
 
