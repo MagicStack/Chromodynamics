@@ -12,9 +12,9 @@
                 <key>background</key>
                 <string>#060606</string>
                 <key>caret</key>
-                <string>#F8F8F0</string>
+                <string>#dfdfdf</string>
                 <key>foreground</key>
-                <string>#bbbbbb</string>
+                <string>#cfcfcf</string>
                 <key>invisibles</key>
                 <string>#3B3A32</string>
                 <key>lineHighlight</key>
@@ -35,8 +35,6 @@
         </dict>
 
         <dict>
-            <!-- This is an override of "settings/foreground",
-                 a trick to have a custom ruler color -->
             <key>name</key>
             <string>String</string>
             <key>scope</key>
