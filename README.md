@@ -8,5 +8,7 @@ it for Atom and Sublime Text soon.
 
 ## Installation Instructions
 
-Right now has to be installed manually.  Clone the repository
-in your `Sublime Text 3/Packages/User` directory.
+In **Sublime Text** install the `Chromodynamics` package with "Package Control".
+
+In **Atom** find the `Chromodynamics` theme, install it, and enable via
+`Themes / Syntax Theme`.
