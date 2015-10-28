@@ -117,6 +117,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Docstring Quotes (specially for Atom)</string>
+            <key>scope</key>
+            <string>string.quoted.docstring string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7c9f57</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Number</string>
             <key>scope</key>
             <string>constant.numeric</string>
@@ -212,8 +223,6 @@
             <string>entity.name.class</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>underline</string>
                 <key>foreground</key>
                 <string>#A6E22E</string>
             </dict>

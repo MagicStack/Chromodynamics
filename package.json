@@ -1,0 +1,11 @@
+{
+  "name": "Chromodynamics",
+  "theme": "syntax",
+  "version": "v0.0.1",
+  "description": "Syntax Theme",
+  "repository": "https://github.com/MagicStack/Chromodynamics",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  }
+}
