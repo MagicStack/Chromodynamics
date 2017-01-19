@@ -1,58 +1,58 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor,atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-atom-text-editor .gutter, :host .gutter {
+atom-text-editor .gutter,atom-text-editor .gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
 }
 
-atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+atom-text-editor .gutter .line-number.cursor-line, atom-text-editor .gutter .line-number.cursor-line {
   background-color: @syntax-gutter-background-color-selected;
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+atom-text-editor .gutter .line-number.cursor-line-no-selection, atom-text-editor .gutter .line-number.cursor-line-no-selection {
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .wrap-guide, :host .wrap-guide {
+atom-text-editor .wrap-guide, atom-text-editor .wrap-guide {
   color: @syntax-wrap-guide-color;background-color:@syntax-wrap-guide-color !important;
 }
 
-atom-text-editor .indent-guide, :host .indent-guide {
+atom-text-editor .indent-guide, atom-text-editor .indent-guide {
   color: @syntax-indent-guide-color;
 }
 
-atom-text-editor .invisible-character, :host .invisible-character {
+atom-text-editor .invisible-character, atom-text-editor .invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+atom-text-editor .search-results .syntax--marker .region, atom-text-editor .search-results .syntax--marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region, atom-text-editor .search-results .syntax--marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
-atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+atom-text-editor.is-focused .cursor, atom-text-editor(.is-focused) .cursor {
   border-color: @syntax-cursor-color;
 }
 
-atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+atom-text-editor.is-focused .selection .region, atom-text-editor(.is-focused) .selection .region {
   background-color: @syntax-selection-color;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, atom-text-editor(.is-focused) .line-number.cursor-line-no-selection, atom-text-editor(.is-focused) .line.cursor-line {
   background-color: #252525;
 }
 
-.text, .source {
+.syntax--text, .syntax--source {
   color: #c6c6c6;
 }
 
@@ -68,142 +68,142 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #A72822;
 }
 
-.comment {
+.syntax--comment {
   color: #545458;
 }
 
-.string {
+.syntax--string {
   color: #d3c970;
 }
 
-.string.quoted.docstring {
+.syntax--string.syntax--quoted.syntax--docstring {
   color: #7c9f57;
 }
 
-.string.quoted.docstring .string {
+.syntax--string.syntax--quoted.syntax--docstring .syntax--string {
   color: #7c9f57;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #9a79d7;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: #9a79d7;
 }
 
-.constant.character, .constant.other {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
   color: #9a79d7;
 }
 
-.variable {
+.syntax--variable {
 }
 
-.keyword {
+.syntax--keyword {
   color: #e8364f;
 }
 
-.comment.line.note, .string.quoted.docstring.note {
+.syntax--comment.line.syntax--note, .syntax--string.syntax--quoted.syntax--docstring.syntax--note {
   color: #b14a58;
 }
 
-.storage {
+.syntax--storage {
   color: #e8364f;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: #66D9EF;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   color: #A6E22E;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   color: #A6E22E;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: #A6E22E;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   color: #e99c42;
 }
 
-.entity.name.tag.namespace {
+.syntax--entity.syntax--name.syntax--tag.syntax--namespace {
   color: #76263a;
 }
 
-.entity.name.tag, .keyword.doctype.xml {
+.syntax--entity.syntax--name.tag, .syntax--keyword.syntax--doctype.syntax--xml {
   color: #d33c78;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #D77C23;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: #66D9EF;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: #66D9EF;
 }
 
-.support.type {
+.syntax--support.syntax--type {
   color: #66D9EF;
 }
 
-.support.class, .support.other, .support.variable {
+.syntax--support.syntax--class, .syntax--support.syntax--other, .syntax--support.syntax--variable {
   color: #66D9EF;
 }
 
-.support.other.variable {
+.syntax--support.syntax--other.syntax--variable {
 }
 
-.invalid {
+.syntax--invalid {
   color: #F8F8F0;
   background-color: #7c3636;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   color: #F8F8F0;
   background-color: #99732b;
 }
 
-.meta.structure.dictionary.json .string.quoted.double.json {
+.syntax--meta.syntax--structure.syntax--dictionary.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
   color: #CFCFC2;
 }
 
-.meta.diff, .meta.diff.header {
+.syntax--meta.syntax--diff, .syntax--meta.syntax--diff.syntax--header {
   color: #75715E;
 }
 
-.markup.deleted {
+.syntax--markup.syntax--deleted {
   color: #e8364f;
 }
 
-.markup.inserted {
+.syntax--markup.syntax--inserted {
   color: #A6E22E;
 }
 
-.markup.changed {
+.syntax--markup.syntax--changed {
   color: #E6DB74;
 }
 
-.variable.language.special, .variable.parameter.function.language.special {
+.syntax--variable.syntax--language.syntax--special, .syntax--variable.syntax--parameter.syntax--function.syntax--language.syntax--special {
   color: #b0af95;
 }
 
-.comment.typehint {
+.syntax--comment.syntax--typehint {
   color: #888A84;
 }
 
-.comment.typehint.ignore {
+.syntax--comment.syntax--typehint.syntax--ignore {
   color: #7E6461;
 }
 
-.comment.typehint.type {
+.syntax--comment.syntax--typehint.syntax--type {
   color: #44727B;
 }
