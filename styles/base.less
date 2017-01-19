@@ -1,54 +1,54 @@
 @import "syntax-variables";
 
-atom-text-editor,atom-text-editor {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-atom-text-editor .gutter,atom-text-editor .gutter {
+atom-text-editor .gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
 }
 
-atom-text-editor .gutter .line-number.cursor-line, atom-text-editor .gutter .line-number.cursor-line {
+atom-text-editor .gutter .line-number.cursor-line {
   background-color: @syntax-gutter-background-color-selected;
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .gutter .line-number.cursor-line-no-selection, atom-text-editor .gutter .line-number.cursor-line-no-selection {
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .wrap-guide, atom-text-editor .wrap-guide {
+atom-text-editor .wrap-guide {
   color: @syntax-wrap-guide-color;background-color:@syntax-wrap-guide-color !important;
 }
 
-atom-text-editor .indent-guide, atom-text-editor .indent-guide {
+atom-text-editor .indent-guide {
   color: @syntax-indent-guide-color;
 }
 
-atom-text-editor .invisible-character, atom-text-editor .invisible-character {
+atom-text-editor .invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-atom-text-editor .search-results .syntax--marker .region, atom-text-editor .search-results .syntax--marker .region {
+atom-text-editor .search-results .marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .syntax--marker.current-result .region, atom-text-editor .search-results .syntax--marker.current-result .region {
+atom-text-editor .search-results .marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
-atom-text-editor.is-focused .cursor, atom-text-editor(.is-focused) .cursor {
+atom-text-editor.is-focused .cursor {
   border-color: @syntax-cursor-color;
 }
 
-atom-text-editor.is-focused .selection .region, atom-text-editor(.is-focused) .selection .region {
+atom-text-editor.is-focused .selection .region {
   background-color: @syntax-selection-color;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, atom-text-editor(.is-focused) .line-number.cursor-line-no-selection, atom-text-editor(.is-focused) .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
   background-color: #252525;
 }
 
@@ -56,15 +56,15 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #c6c6c6;
 }
 
-.git_changes_change {
+.syntax--git_changes_change {
   color: #A29F46;
 }
 
-.git_changes_add {
+.syntax--git_changes_add {
   color: #1f9a12;
 }
 
-.git_changes_del- {
+.syntax--git_changes_del- {
   color: #A72822;
 }
 
@@ -103,7 +103,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #e8364f;
 }
 
-.syntax--comment.line.syntax--note, .syntax--string.syntax--quoted.syntax--docstring.syntax--note {
+.syntax--comment.syntax--line.syntax--note, .syntax--string.syntax--quoted.syntax--docstring.syntax--note {
   color: #b14a58;
 }
 
