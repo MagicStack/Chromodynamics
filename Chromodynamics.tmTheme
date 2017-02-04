@@ -126,6 +126,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Docstring Storage (r prefix) (specially for Atom)</string>
+            <key>scope</key>
+            <string>string.quoted.docstring storage</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66D9EF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Number</string>
             <key>scope</key>
             <string>constant.numeric</string>
