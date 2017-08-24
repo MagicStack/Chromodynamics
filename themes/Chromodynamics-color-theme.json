@@ -1,0 +1,12 @@
+{
+	"tokenColors": "../Chromodynamics.tmTheme",
+	"colors": {
+		"editor.background": "#060606",
+		"editorCursor.foreground": "#dfdfdf",
+		"editor.foreground": "#c6c6c6",
+		"editorWhitespace.foreground": "#3B3A32",
+		"editor.lineHighlightBackground": "#252525",
+		"editor.selectionBackground": "#444"
+	},
+	"name": "Chromodynamics"
+}
