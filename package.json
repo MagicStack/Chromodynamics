@@ -1,11 +1,25 @@
 {
   "name": "Chromodynamics",
+  "publisher": "magicstack",
   "theme": "syntax",
   "version": "0.0.11",
   "description": "Syntax Theme",
   "repository": "https://github.com/MagicStack/Chromodynamics",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.13.0"
+    "atom": ">=1.13.0",
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chromodynamics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Chromodynamics-color-theme.json"
+      }
+    ]
   }
 }
