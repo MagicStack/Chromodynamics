@@ -1,0 +1,17 @@
+{
+  "tokenColors": "./Chromodynamics.tmTheme",
+  "type": "dark",
+  "colors": {
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#131313",
+    "editor.background": "#060606",
+    "activityBar.background": "#101010",
+    "menu.background": "#131313",
+    "sideBar.background": "#131313",
+    "panel.background": "#131313",
+    "editorGroupHeader.tabsBackground": "#131313",
+    "tab.inactiveBackground": "#151515",
+    "tab.border": "#131313",
+  }
+}

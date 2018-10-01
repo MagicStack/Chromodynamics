@@ -15,3 +15,6 @@ In **Sublime Text** install the `Chromodynamics` package with "Package Control".
 
 In **Atom** find the `Chromodynamics` theme, install it, and enable via
 `Themes / Syntax Theme`.
+
+In **Visual Studio Code** find the `Chromodynamics` theme, install it, and
+enable via the `Preferences: Color Theme` command.
